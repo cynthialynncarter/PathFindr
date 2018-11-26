@@ -1,0 +1,86 @@
+#logoImage {
+    background-image: url(assets/Logo-black.png);
+    height: 100px;
+    width: auto;
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: left top;
+    position: relative;
+    margin-top: 15px;
+    margin-left: 20px;
+    z-index: 4;
+}
+
+#nav {
+    text-align: left;
+    float:left;
+    padding-left: 0px;
+    padding-top: 35px;
+    z-index: 3;
+}
+#nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+#nav li {
+    float: left;
+}
+
+#nav li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 15px 25px;
+    text-decoration: none;
+}
+
+#nav li a:hover {
+    color:darkviolet;
+}
+
+#phone1 {
+    background-image: url(assets/phone/phone1.png);
+    height: 700px;
+    width: auto;
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: left top;
+    position:inherit;
+    margin-top: 20px;
+    margin-left: -170px;
+    z-index: 2;
+}
+#heroImg {
+    background-image: url(assets/background-img.png);
+    height: 100vh;
+    width: auto;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-position: left top;
+    position:relative;
+    margin-top: -16px;
+    margin-left: 40px;
+    z-index: 1;
+}
+
+#img-content {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);   
+}
+
+#downlad-btn {
+    color:aliceblue;
+    font-size: 30px;
+}
+
+#imageTxt {
+    color:white;
+    font-size: 30px;  
+}
