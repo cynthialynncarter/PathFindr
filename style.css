@@ -148,3 +148,47 @@
     margin-left: 20px;
     z-index: 5;
 }
+
+
+/* Row Three Starts*/
+
+#phone3 {
+    background-image: url(assets/phone/phone3.png);
+    height: 700px;
+    width: auto;
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: left top;
+    position: relative;
+    margin-top: 15px;
+    margin-left: 20px;
+    z-index: 5;
+}
+
+/* Row Four */
+
+#phone4 {
+    background-image: url(assets/phone/phone4.png);
+    height: 400px;
+    width: auto;
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position:center;
+    position: relative;
+    margin-top: 90px;
+    margin-left: 20px;
+}
+
+#titleTxt4 {
+    color:#4B0082;
+    text-transform: capitalize; 
+    font-size: 30px;
+    text-align: center;
+}
+
+#bodyTxt4 {
+    line-height: 30px; 
+    margin-left:100px;
+    margin-right:100px;
+    padding-bottom: 60px;
+}
