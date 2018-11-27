@@ -1,3 +1,4 @@
+/* Row One Starts*/
 #logoImage {
     background-image: url(assets/Logo-black.png);
     height: 100px;
@@ -83,9 +84,67 @@
     padding-right: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    opacity: 0.8;
+}
+
+#downlad-btn:hover {
+    opacity: 1;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
 }
 
 #imageTxt {
     color:white;
     font-size: 30px;  
+}
+
+/* Row Two Starts*/
+
+#mainTitle, #titleTxt  {
+    color:#4B0082;
+}
+
+#mainTitle {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-transform: capitalize;
+    font-size: 50px;
+    text-align: right;
+    margin-right: -130px;
+}
+
+#titleTxt{
+    padding-bottom: 15px;
+    text-transform: capitalize; 
+    font-size: 30px;
+    
+}
+
+#headerbodytxt{
+    padding-top: 90px;
+    margin-left: -40px;
+}
+
+#bodyTxt {
+    line-height: 30px;
+    margin-right: 80px;
+}
+
+#phone2 {
+    background-image: url(assets/phone/phone2.png);
+    height: 700px;
+    width: auto;
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: left top;
+    position: relative;
+    margin-top: 15px;
+    margin-left: 20px;
+    z-index: 5;
 }
