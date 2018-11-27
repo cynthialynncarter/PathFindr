@@ -192,3 +192,27 @@
     margin-right:100px;
     padding-bottom: 60px;
 }
+
+/* Row Five */
+
+#titleOp {
+    font-size: 50px;
+    text-align: center;
+    color:#4B0082;
+    text-transform: capitalize;
+}
+
+#mba {
+    background-image: url(assets/MBA.png);
+    height: 100px;
+    width: auto;
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position:center;
+    position: relative;  
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+}
