@@ -1,0 +1,270 @@
+/* Global Styles */
+#bodyTxt {
+    line-height: 30px; 
+    margin-left:40px;
+    margin-right:100px;
+    padding-bottom: 60px;
+    border-style: solid;
+    border-radius: 10px;
+    padding: 15px;
+    border-width: thin;
+}
+
+#titleTxt{
+    padding-bottom: 15px;
+    text-transform: uppercase; 
+    font-size: 40px;
+    margin-top: 90px;
+    margin-left:15px;
+    text-shadow:2px 2px white;
+}
+
+#stripe {
+    height: 38px;
+    background-color: #39387C;
+    border-color: #39387C;
+    border-radius: 5px;
+
+}
+
+/* Row One Starts*/
+#logoImage {
+    background-image: url("/assets/Logo-black.png");
+    height: 100px;
+    width: auto;
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: left top;
+    position: relative;
+    margin-top: 15px;
+    margin-left: 20px;
+    z-index: 4;
+}
+
+#nav {
+    text-align: left;
+    float:left;
+    text-transform: uppercase;
+    padding-left: 0px;
+    padding-top: 35px;
+    z-index: 3;
+}
+#nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+#nav li {
+    float: left;
+}
+
+#nav li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 15px 25px;
+    text-decoration: none;
+}
+
+#nav li a:hover {
+    color:darkviolet;
+}
+
+#phone1 {
+    background-image: url("/assets/phone/phone1.png");
+    height: 800px;
+    width: auto;
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: left top;
+    position:inherit;
+    margin-top: 70px;
+    margin-left: -170px;
+    z-index: 2;
+}
+#heroImg {
+    background-image: url("/assets/background-img.png");
+    height: 100vh;
+    width: auto;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-position: left top;
+    position:relative;
+    margin-top: -16px;
+    margin-left: 40px;
+    z-index: 1;
+}
+
+#img-content {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);   
+}
+
+#downlad-btn {
+    color: black;
+    font-size: 30px;
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-style: solid;
+    border-color: black;
+    border-width: medium;
+}
+
+#downlad-btn:hover {
+    opacity: 1;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+
+#imageTxt {
+    color:white;
+    font-size: 40px;
+    text-shadow:2px 2px black;
+    text-transform: lowercase;
+}
+
+/* Row Two Starts*/
+
+#rowTwo {
+    background-color: #f3f3f3;
+    margin-top: -200px;
+}
+
+#mainTitle, #titleTxt  {
+    color: black;
+}
+
+#mainTitle {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-transform: capitalize;
+    font-size: 50px;
+    text-align: right;
+    margin-right: -130px;
+}
+
+
+#rowTwo #headerbodytxt{
+    padding-top: 90px;
+    margin-left: -40px;
+}
+
+#phone2 {
+    background-image: url("/assets/phone/phone2.png");
+    height: 800px;
+    width: auto;
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: left top;
+    position: relative;
+    margin-top: 90px;
+    margin-left: 20px;
+    z-index: 5;
+}
+
+
+/* Row Three Starts*/
+
+#rowThree #mainTitle {
+
+}
+
+#rowThree #headerbodytxt{
+    padding-left: 200px;
+}
+
+#phone3 {
+    background-image: url("/assets/phone/phone3.png");
+    height: 700px;
+    width: auto;
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: left top;
+    position: relative;
+    margin-left: 20px;
+    z-index: 5;
+}
+
+/* Row Four */
+#rowFour {
+    background-image: url("/assets/background-img2.png");
+    height: 500px;
+    margin-top: 5px;
+}
+
+#rowFour #mainTitle{
+    color: white;
+    text-align: left;
+}
+#rowFour #downlad-btn {
+    text-align: center;
+}
+
+/* Row Five */
+#footerRow {
+    background-color: #d3d3d3d3;
+}
+
+#footerRow ul {
+    padding-top: 30px;
+    list-style-type: none;
+    text-transform: uppercase;
+    line-height: 30px;
+}
+
+#footerRow a {
+    color: black;
+}
+
+#mainLink {
+    font-weight: bold;
+}
+
+#social-icons {
+    display: inline;
+    margin-right: 10px;
+}
+
+#ft {
+    display: inline;
+}
+
+.footertxt {
+    text-align: right;
+}
+h4 {
+    text-align: center;
+}
+#mba {
+    background-image: url("/assets/MBA.png");
+    height: 100px;
+    width: auto;
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position:center;
+    position: relative;  
+}
+
+#endline {
+    background-image: url("/assets/background-img2.png");
+    height: 20px;
+}
